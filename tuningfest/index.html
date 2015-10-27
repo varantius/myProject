@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TUNINGFEST</title>
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="./css/bootstrap_custom.min.css">
+    <link rel="stylesheet" href="./css/uikit.min.css" />
+    <link rel="stylesheet" href="css/style.css"/>
+
+
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/uikit.min.js"></script>
+    <script src="./js/slideset.js"></script>
+    <script src="./js/slider.min.js"></script>
+    <script src="./js/lightbox.js"></script>
+
+    <script src="./js/bootstrap.min.js"></script>
+
+    <script>
+        var slideset = UIkit.slideset($('.slider_block'), {});
+        var lightbox = UIkit.lightbox($('.slider_block'), { /* options */ });
+    </script>
+    <script>
+        // $(document).ready(function () {
+        //     var special_offer_height = $('.special_offer').height();
+        //     $('.special_offer').find('a').css('height', special_offer_height);
+        // });
+
+        $('.spec_a').css('height', '100%');
+    </script>
+
+</head>
+<body>
+<div class="main_wrapper">
+
+    <div class="header " id="main">
+        <div class="logo col-sm-12 col-md-12 col-lg-3">
+            <img src="./images/logo.png" alt="" class="img-responsive">
+        </div>
+
+
+        <div id="custom-bootstrap-menu" class="navbar navbar-default col-sm-12 col-md-12 col-lg-9 " role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse navbar-menubuilder" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li class="active item"><a href="">Главная</a></li>
+                        <li><a href="#program">Программа</a></li>
+                        <li><a href="#media">Медиа</a></li>
+                        <li><a href="#tickets">Билеты</a></li>
+                        <li><a href="#special_offer">Акции</a></li>
+                        <li><a href="#participation">Участие</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                        <li><a href="#partners">Партнеры</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <!--<nav role="nav" class="navbar navbar col-lg-9 col-md-12 col-sm-12 navbar-fixed navigation" >-->
+            <!--<div class="">-->
+                <!--<div class="navbar-header">-->
+                    <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">-->
+                        <!--<span class="sr-only">Toggle navigation</span>-->
+                        <!--<span class="icon-bar"></span>-->
+                        <!--<span class="icon-bar"></span>-->
+                        <!--<span class="icon-bar"></span>-->
+                    <!--</button>-->
+                <!--</div>-->
+                <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
+                    <!--<ul class="nav navbar-nav ">-->
+                        <!--<li class="active item"><a href="">Главная</a></li>-->
+                        <!--<li><a href="#program">Программа</a></li>-->
+                        <!--<li><a href="#media">Медиа</a></li>-->
+                        <!--<li><a href="#tickets">Билеты</a></li>-->
+                        <!--<li><a href="#special_offer">Акции</a></li>-->
+                        <!--<li><a href="#participation">Участие</a></li>-->
+                        <!--<li><a href="#contacts">Контакты</a></li>-->
+                        <!--<li><a href="#partners">Партнеры</a></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</nav>-->
+
+
+    </div>
+
+    <div class="img_wrapper" >
+        <img unselectable="on" ondrag="return false" ondragdrop="return false" ondragstart="return false" style="width: 100%;" src="./images/tuningfest-landing-page_01.jpg" alt=""/>
+
+    </div>
+    <div class="img_wrapper" id="program">
+        <img unselectable="on" ondrag="return false" ondragdrop="return false" ondragstart="return false" style="width: 100%;" src="./images/tuningfest-landing-page_02.jpg" alt=""/>
+    </div>
+
+    <div class="portfolio " id="media">
+        <h2 class="text-center">ФОТОГРАФИИ С НАШИХ МЕРОПРИЯТИЙ</h2>
+        <hr>
+
+        <div class="slider">
+            <div class="slider_block"  data-uk-slideset="{medium: 4, delay: 100, animation: 'scale', duration: 200}">
+                <ul class="uk-grid uk-slideset">
+                    <li>
+                        <a href="./images/slider_image/206920273.jpg" data-uk-lightbox="{group:'group1'}">
+                            <div><img src="./images/slider_image/206920273.jpg" alt=""></div>
+                            <h4>AWESOME PHOTO</h4>
+                            <hr>
+                            <p>Описание к фото</p>
+                            <p>Комментарии</p>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="./images/slider_image/GOPR3325.jpg" data-uk-lightbox="{group:'group1'}">
+                            <div><img src="./images/slider_image/GOPR3325.jpg" alt=""></div>
+                            <h4>AWESOME PHOTO</h4>
+                            <hr>
+                            <p>Описание к фото</p>
+                            <p>Комментарии</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./images/slider_image/GOPR3308.jpg" data-uk-lightbox="{group:'group1'}">
+                            <div><img src="./images/slider_image/GOPR3308.jpg" alt=""></div>
+                            <h4>AWESOME PHOTO</h4>
+                            <hr>
+                            <p>Описание к фото</p>
+                            <p>Комментарии</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./images/slider_image/hKRNPN1H068.jpg" data-uk-lightbox="{group:'group1'}">
+                            <div><img src="./images/slider_image/hKRNPN1H068.jpg" alt=""></div>
+                            <h4>AWESOME PHOTO</h4>
+                            <hr>
+                            <p>Описание к фото</p>
+                            <p>Комментарии</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./images/slider_image/PSZjvcfAwy0.jpg" data-uk-lightbox="{group:'group1'}">
+                            <div><img src="./images/slider_image/PSZjvcfAwy0.jpg" alt=""></div>
+                            <h4>AWESOME PHOTO</h4>
+                            <hr>
+                            <p>Описание к фото</p>
+                            <p>Комментарии</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./images/slider_image/URoL-arfBU8.jpg" data-uk-lightbox="{group:'group1'}">
+                            <div><img src="./images/slider_image/URoL-arfBU8.jpg" alt=""></div>
+                            <h4>AWESOME PHOTO</h4>
+                            <hr>
+                            <p>Описание к фото</p>
+                            <p>Комментарии</p>
+                        </a>
+                    </li>
+                </ul>
+                <a href=""data-uk-slideset-item="previous"></a>
+                <a href=""data-uk-slideset-item="next"></a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="video_wrapper light_text text-center" style="position: relative;">
+        <img unselectable="on" ondrag="return false" ondragdrop="return false" ondragstart="return false" style="width: 100%;" src="./images/tuningfest-landing-page_03.jpg" alt=""/>
+        <div class="info_wrapper container">
+
+            <h2>ВИДЕО С НАШИХ МЕРОПРИЯТИЙ</h2>
+            <hr>
+            <p>НИЧЕГО, ЛУЧШЕ ВИДЕО, НЕ ОПИШЕТ ПРОИСХОДЯЩЕЕ НА НАШИХ МЕРОПРИЯТИЯХ, ЕСЛИ ВЫ ИХ ЕЩЕ НЕ ПОСЕЩАЛИ</p>
+            <div class="look_video">
+                <p>СМОТРИТЕ ВИДЕО</p>
+                <div class="play_icon"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="youtube_video embed-responsive embed-responsive-16by9"  style="display: none;">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Iy_R-ueOLIM?list=PL700456A8F21B972A" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="more_photo_and_video light_text text-center">
+        <h2>БОЛЬШЕ ФОТО И ВИДЕО ВЫ НАЙДЕТЕ НА СЛЕДУЮЩИХ НАШИХ РЕСУРСАХ</h2>
+
+        <div class="social_icons container">
+            <div class=" col-xs-4 col-xs-offset-3 col-sm-4 col-sm-offset-3">
+                <a target="_blank" href="https://vk.com/tuningfest.show"><img style="width: 100px" class="img-responsive" src="./images/vk_icon.png" alt=""/></a>
+            </div>
+            <div class="col-xs-4 col-sm-4">
+                <a target="_blank" href="https://www.youtube.com/user/tuningfestUA"><img style="width: 100px" class="img-responsive" src="./images/youtube_icon.png" alt=""/></a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="tickets text-center" id="tickets">
+        <div class="container">
+            <h2><span>БИЛЕТЫ</span></h2>
+
+            <h3>ИНФОРМАЦИЯ О СТОИМОСТИ БИЛЕТОВ</h3>
+
+                <div class="col-md-3 col-sm-12">
+                    <p>Акционная цена по предпродаже до 22 октября:</p>
+                    <p>70 грн</p>
+                </div>
+
+                <div class="col-md-9 col-sm-12">
+                     <p>В кассе в день мероприятия:</p>
+                     <div class="col-md-4 col-sm-4">
+                         <p>Дети до 8 лет</p>
+                         <p>БЕСПЛАТНО</p>
+                     </div>
+                     <div class="col-md-4 col-sm-4">
+                         <p>Дети с 8 до 12 лет</p>
+                         <p>50 грн</p>
+                     </div>
+                     <div class="col-md-4 col-sm-4">
+                         <p>Взрослый билет</p>
+                         <p>100 грн</p>
+                     </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    <div class="tickets_info light_text">
+        <img unselectable="on" ondrag="return false" ondragdrop="return false" ondragstart="return false" style="width: 100%;" src="./images/tuningfest-landing-page_tickets_02.jpg" alt=""/>
+    </div>
+
+
+
+    <div id="special_offer" class="special_offer">
+        <h2><span>АКЦИИ</span></h2>
+        <a class="spec_a" target="_blank" href="https://vk.com/wall-25898000_1756" style="height: 100%"> </a>
+            <img unselectable="on" ondrag="return false" ondragdrop="return false" ondragstart="return false" style="width: 100%;" src="./images/tuningfest-landing-page_special_offer_02.png" alt=""/>
+
+   </div>
+
+
+    <div  class="gift_block light_text">
+        <div class="container">
+            <div class="col-xs-2 col-sm-2">
+                <img class="img-responsive" src="./images/tuningfest-landing-page_konkurs_podarok_03.png" alt=""/>
+            </div>
+
+            <div class="col-xs-9 col-sm-9">
+                <h2><span>НЕ УПУСТИ СВОЙ ШАНС<br/> ПОПАСТЬ НА МЕРОПРИЯТИЕ<br/> БЕСПЛАТНО!</span></h2>
+                <h2><span>НЕ УПУСТИ СВОЙ ШАНС</span></h2>
+                <!--<hr>-->
+                <p>Принимай участие в нашем конкурсе. <br>
+                    Уславия и подробности опубликованы Вконтакте.
+                </p>
+                <div class="pull-right button_go_konc"><a target="_blank" href="https://vk.com/wall-25898000_1756">ПЕРЕЙТИ К КОНКУРСУ</a></div>
+            </div>
+
+        </div>
+    </div>
+    <div id="participation" class="receipt_appl container text-center">
+        <h2>ПРИЕМ ЗАЯВОК НА УЧАСТИЕ В ВЫСТАВКЕ</h2>
+        <hr>
+
+        <div class="receipt_appl_first_block receipt_appl_text">
+            <p>ПО ВОПРОСУ УЧАСТИЯ ОБРАЩАЙТЕСЬ К ОРГАНИЗАТОРУ ТЮНИНГФЕСТА (КОНСТАНТИН ИЩЕНКО) ПО ТЕЛ.:</p>
+            <p><span>+380638340000</span></p>
+        </div>
+        <div class="receipt_appl_second_block receipt_appl_text">
+            <p>ПРЕДВАРИТЕЛЬНУЮ ЗАЯВКУ С ФОТО ВАШЕГО ТС, И ВАШИМИ КОНТАКТНЫМИ ДАННЫМИ ОТПРАВЛЯЙТЕ НА ПОЧТУ:</p>
+            <p><span>TUNINGFEST@UKR.NET</span></p>
+        </div>
+
+    </div>
+
+    <div id="contacts" class="watch_news">
+        <div class="container">
+            <h2 class="text-right">СЛЕДИТЕ ЗА НОВОСТЯМИ, КОНКУРСАМИ,<br> ДЕЛИТЕСЬ ВПЕЧАТЛЕНИЯМИ, ФОТОГРАФИЯМИ И ВИДЕО<br> НА НАШИХ ИНТЕРНЕТ-РЕСУРСАХ</h2>
+            <div class="col-xs-12 col-sm-4">
+               <div><a target="_blank" href="https://vk.com/tuningfest.show"><img class="" src="./images/vk_icon.png" alt=""/></a> <span class="image_title">ГРУППА</span></div>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <div><a target="_blank" href="https://www.youtube.com/channel/UCQ1xeCWdKHGA09KFLgN1lcQ?sub_confirmation=1"><img class="" src="./images/youtube_icon.png" alt=""/></a> <span class="image_title">КАНАЛ</span></div>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <div><a target="_blank" href="https://vk.com/tuningfestevent"><img class="" src="./images/vk_icon.png" alt=""/></a> <span class="image_title">МЕРОПРИЯТИЯ</span></div>
+             </div>
+        </div>
+    </div>
+    <div class="slider_sponsors" id="partners">
+            <!-- <a name="partners"></a> -->
+
+            <div class="slider_sponsors_block"  data-uk-slideset="{medium: 4, delay: 100, animation: 'scale', duration: 200}">
+                <ul class="uk-grid uk-slideset">
+
+                    <li > <img src="./images/partners_images/rodnik.png" alt=""></li>
+                    <li > <img src="./images/partners_images/z2.png" alt=""></li>
+                    <li > <img src="./images/partners_images/motul.png" alt=""></li>
+                    <li > <img src="./images/partners_images/base_autovolume.png" alt=""></li>
+                    <li > <img src="./images/partners_images/gran-turismo-6_1368634342.png" alt=""></li>
+                    <li > <img src="./images/partners_images/logo_yaposka.png" alt=""></li>
+                    <li > <img src="./images/partners_images/logo_shina.png" alt=""></li>
+                    <li > <img src="./images/partners_images/logo_rst.png" alt=""></li>
+                    <li > <img src="./images/partners_images/logo_avto_kharkov.png" alt=""></li>
+                    <li > <img src="./images/partners_images/logo_UDS_DRIFT_Edition.png" alt=""></li>
+                    <li > <img src="./images/partners_images/UDS_chern.png" alt=""></li>
+                    <!-- <li > <img src="./images/partners_images/UDS_bel.png" alt=""></li> -->
+                    <li > <img src="./images/partners_images/logotip_SportEdition_bolshoy.png" alt=""></li>
+                </ul>
+
+                <a href=""data-uk-slideset-item="previous"></a>
+                <a href=""data-uk-slideset-item="next"></a>
+            </div>
+        </div>
+    </div>
+    <div class="pre_footer_map">
+        <!--<div class="pre_footer_map_img"></div>-->
+        <img unselectable="on" ondrag="return false" ondragdrop="return false" ondragstart="return false" style="width: 100%" src="./images/tuningfest-landing-page_07.jpg" alt="">
+        <img unselectable="on" ondrag="return false" ondragdrop="return false" ondragstart="return false" style="width: 100%" src="./images/pre_footer_map_03.jpg" alt="">
+    </div>
+
+
+    <div class="footer light_text">
+        <div class="container">
+            <p>2015 <span>TUNINGFEST</span>. ALL RIGHTS RESERVED. DESIGNED BY ALEXANDR KUKHARYK </p>
+            <p>
+                Developed by <a href="http://itb-inc.net" target="_blank">ITB Inc</a></p>
+        </div>
+    </div>
+</div>
+
+
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+
+
+
+<script src="./js/main.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+
+
+
+</body>
+</html>

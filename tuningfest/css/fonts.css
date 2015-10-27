@@ -1,0 +1,129 @@
+/*CodePro font*/
+
+
+
+/* только для Internet Explorer */
+
+@font-face {font-family: Code_Pro;
+    src: local("Code_Pro"),
+    url("../fonts/Code_pro/Code_Pro.otf");
+}
+@font-face {font-family: Code_Pro_Black;
+    src: local("Code_Pro_Black"),
+    url("../fonts/Code_pro/Code_Pro_Black.otf");
+}
+/*@font-face {font-family: Code_Pro_Black_LC;*/
+    /*src: local("Code_Pro_Black_LC"),*/
+    /*url("../fonts/Code_pro/Code_Pro_Black_LC.otf");*/
+/*}*/
+@font-face {
+    font-family: Code_Pro_Bold;
+    src: local("Code_Pro_Bold"),
+    url("../fonts/Code_pro/Code_Pro_Bold.otf");
+}
+/*@font-face {font-family: Code_Pro_Bold_LC;*/
+    /*src: local("Code_Pro_Bold_LC"),*/
+    /*url("../fonts/Code_pro/Code_Pro_Bold_LC.otf");*/
+/*}*/
+/*@font-face {font-family: Code_Pro_LC;*/
+    /*src: local("Code_Pro_LC"),*/
+    /*url("../fonts/Code_pro/Code_Pro_LC.otf");*/
+/*}*/
+@font-face {font-family: Code_Pro_Light;
+    src: local("Code_Pro_Light"),
+    url("../fonts/Code_pro/Code_Pro_Light.otf");
+}
+/*@font-face {font-family: Code_Pro_Light_Demo;*/
+    /*src: local("Code_Pro_Light_Demo"),*/
+    /*url("../fonts/Code_pro/Code_Pro_Light_Demo.otf");*/
+/*}*/
+/*@font-face {font-family: Code_Pro_Light_LC;*/
+    /*src: local("Code_Pro_Light_LC"),*/
+    /*url("../fonts/Code_pro/Code_Pro_Light_LC.otf");*/
+/*}*/
+
+
+/*raleway font*/
+
+@font-face {
+    font-family:Raleway-Thin;
+    src: local("Raleway-Thin"),
+    url("../fonts/raleway/Raleway-Thin.ttf");
+}
+@font-face {
+    font-family:Raleway-Medium;
+    src: local("Raleway-Medium"),
+    url("../fonts/raleway/Raleway-Medium.ttf");
+}
+
+@font-face {
+    font-family:Raleway-SemiBold;
+    src: local("Raleway-SemiBold"),
+    url("../fonts/raleway/Raleway-SemiBold.ttf");
+}
+
+
+@font-face {
+    font-family:Raleway-Light;
+    src: local("Raleway-Light"),
+    url("../fonts/raleway/Raleway-Light.ttf");
+
+}
+
+@font-face {font-family: FontAwesome;
+    src: local("FontAwesome"),
+    url("../fonts/FontAwesome.otf");
+}
+
+
+
+
+
+/*@font-face {font-family:RalewayBlack;*/
+/*src: url(/fonts/raleway/Raleway-Black.ttf);*/
+/*}*/
+/*@font-face {font-family:RalewayBlackItalic;*/
+/*src: url(/fonts/raleway/Raleway-BlackItalic.ttf);*/
+/*}*/
+/*@font-face {font-family:RalewayBold;*/
+/*src: url(/fonts/raleway/Raleway-Bold.ttf);*/
+/*}*/
+/*@font-face {font-family:RalewayBoldItalic;*/
+/*src: url(/fonts/raleway/Raleway-BoldItalic.ttf);*/
+/*}*/
+/*@font-face {font-family:RalewayExtraBold;*/
+/*src: url(/fonts/raleway/Raleway-ExtraBold.ttf);*/
+/*}*/
+/*@font-face {font-family:RalewayExtraBoldItalic;*/
+/*src: url(/fonts/raleway/Raleway-ExtraBoldItalic.ttf);*/
+/*}*/
+/*@font-face {font-family:RalewayExtraLight;*/
+/*src: url(/fonts/raleway/Raleway-ExtraLight.ttf);*/
+/*}*/
+/*@font-face {font-family:RalewayExtraLightItalic;*/
+/*src: url(/fonts/raleway/Raleway-ExtraLightItalic.ttf);*/
+/*}*/
+/*@font-face {font-family:RalewayItalic;*/
+/*src: url(/fonts/raleway/Raleway-Italic.ttf);*/
+/*}*/
+/*@font-face {font-family:RalewayLight;*/
+/*src: url(/fonts/raleway/Raleway-Light.ttf);*/
+/*}*/
+/*@font-face {font-family:RalewayLightItalic;*/
+/*src: url(/fonts/raleway/Raleway-LightItalic.ttf);*/
+/*}*/
+
+/*@font-face {font-family:RalewayMediumItalic;*/
+/*src: url(/fonts/raleway/Raleway-MediumItalic.ttf);*/
+/*}*/
+/*@font-face {font-family:RalewayRegular;*/
+/*src: url(/fonts/raleway/Raleway-Regular.ttf);*/
+/*}*/
+
+/*@font-face {font-family:RalewaySemiBoldItalic;*/
+/*src: url(/fonts/raleway/Raleway-SemiBoldItalic.ttf);*/
+/*}*/
+
+/*@font-face {font-family:RalewayThinItalic;*/
+/*src: url(/fonts/raleway/Raleway-ThinItalic.ttf);*/
+/*}*/

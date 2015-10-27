@@ -1,0 +1,976 @@
+@import "fonts.css";
+body{
+    color: #3f4244;
+    font-family: Code_Pro;
+    font-weight: normal;
+    overflow-x: hidden;
+
+}
+
+.light_text{
+    color: #ffffff;
+}
+.main_wrapper h2{
+    font-family: Code_Pro;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+/*HEADER AND MENU*/
+
+.header{
+    /*width: 1777px;*/
+    height: 105px;
+}
+.header img.logo{
+    /*width: 585px;*/
+    /*height: 70px;*/
+    margin-top: 17px;
+}
+
+.logo {
+    padding-left: 30px;
+}
+
+.logo img{
+    margin: 0 auto;
+    display: block;
+}
+.logo.col-md-12 img{
+    /*height: 50px;*/
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.navbar{
+    margin-bottom: 0 !important;
+}
+.navbar-default{
+    background-color:none!important;
+    border-color: none!important;
+}
+
+#bs-example-navbar-collapse-1 .nav{
+    left: 50%;
+    list-style: outside none none;
+    padding-left: 0;
+    position: relative;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+#bs-example-navbar-collapse-1 .nav li{
+    float: none!important;
+    display: inline-block;
+}
+
+.navigation{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.navigation{
+    margin-bottom: 0 !important;
+}
+#bs-example-navbar-collapse-1 .navbar-nav > li > a {
+    padding: 40px 10px;
+    border-bottom: solid 2px #fff;
+    transition: all .3s linear;
+     -webkit-transition: all .3s linear;
+    background: none;
+    text-transform: uppercase;
+    color: #3f4244;
+    font-family: Code_Pro_Bold;
+
+    font-weight: normal;
+}
+
+#bs-example-navbar-collapse-1 li:nth-of-type(4) a{
+    color: #cb2128;
+}
+#bs-example-navbar-collapse-1 .navbar-nav > li > a:hover{
+    color: #00e1ff;
+    border-bottom: solid 2px #00e1ff;
+}
+
+
+
+
+/*banners in top */
+.img_wrapper_first{
+    background: hsla(0, 0%, 0%, 0) url("../images/tuningfest-landing-page_01.jpg") no-repeat scroll center top /  100% 100%;
+    height: 700px;
+    width: 100%;
+}
+.img_wrapper_second{
+    background: hsla(0, 0%, 0%, 0) url("../images/tuningfest-landing-page_02.jpg") no-repeat scroll center top / 100% 100%;
+    height: 764px;
+    width: 100%;
+}
+
+
+
+/* SLIDER STYLE*/
+
+.portfolio {
+    padding: 20px 0;
+}
+.portfolio h2{
+
+}
+.slider{
+    position: relative;
+}
+.slider > div > a{
+    padding: 35px;
+    position: absolute;
+}
+.slider > div > a:nth-of-type(1){
+    background: url("../images/left_arrow_03.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    top: 25%;
+    left: 20px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.slider > div > a:nth-of-type(2){
+    background: url("../images/right_arrow_03.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    top: 25%;
+    right: 20px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.slider .uk-active{
+    position: relative;
+}
+/*.uk-grid{*/
+    /*margin-left: 0 !important;*/
+/*}*/
+/*.uk-grid > *{*/
+    /*padding-left: 0 !important;*/
+/*}*/
+.slider .uk-active div{
+    position: relative;
+
+}
+.slider .uk-active div:before{
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    background: rgba(0, 255, 255, .5) none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 100%;
+    opacity: 0;
+    transition: all .4s ease;
+}
+.slider .uk-active div:hover:before{
+    opacity: 1;
+    transition: all .4s ease;
+}
+
+
+.slider .uk-active div:after{
+    content: "";
+    transition: all .4s ease;
+    background: url("../images/hover_plus_for_portfolio_cars.png") no-repeat;
+    width: 87px;
+    height: 87px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 0;
+
+}
+.slider .uk-active div:hover:after{
+    opacity: 1;
+}
+
+.slider_block h4{
+    color: #535557;
+    text-align: center;
+}
+
+.slider_block p{
+    color: #333;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+    font-family: Raleway-Light;
+    font-weight: normal;
+    font-size: 16px;
+}
+.slider_block li{
+    padding-bottom: 20px;
+    background: #ffffff;
+}
+.uk-grid-width-medium-1-4 > * {
+    margin: 0 0.5%!important;
+    width: 24%!important;
+}
+.slider_block li a{
+    text-decoration: none;
+}
+
+.uk-grid > * {
+    padding: 0 0 15px 0!important;
+}
+.portfolio {
+    background: #eeeeee;
+
+}
+
+
+.portfolio hr{
+    background: hsl(187, 100%, 50%) none repeat scroll 0 0;
+    border: medium none;
+    height: 2px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    width: 30%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+/* Video block */
+.video_wrapper {
+    /*background: hsla(0, 0%, 0%, 0) url("../images/tuningfest-landing-page_03.jpg") no-repeat scroll center top /  100% 100%;*/
+    /*height: 637px;*/
+    /*width: 100%;*/
+}
+
+
+.uk-h2, h2{
+    line-height: normal;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.video_wrapper .info_wrapper{
+    padding-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+
+.video_wrapper .info_wrapper h2{
+    color: #ffffff;
+    margin-top: 10px;
+}
+.video_wrapper .info_wrapper hr{
+    background: #00e1ff;
+    border: medium none;
+    height: 1px;
+    margin: 15px auto 20px;
+    width: 30%;
+}
+
+
+.video_wrapper .info_wrapper p{
+    text-transform: uppercase;
+    font-family: Code_Pro_Light;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+.video_wrapper .info_wrapper .look_video p{
+    font-family: Code_Pro;
+    font-weight: normal;
+    font-size: 24px;
+}
+.look_video{
+    /*margin-bottom: 50px;*/
+}
+.video_wrapper .info_wrapper .look_video .play_icon{
+    margin: 0 auto;
+    background: url("../images/for_video_icon.png") no-repeat scroll center top;
+    height: 114px;
+    width: 114px;
+    cursor: pointer;
+}
+
+.more_photo_and_video{
+    background: #131316;
+    /*height: 323px;*/
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.more_photo_and_video .social_icons{
+    margin-top: 40px;
+}
+.more_photo_and_video .social_icons div{
+
+}
+.more_photo_and_video h2{
+    color: #ffffff;
+}
+
+/*TICKETS BLOCK*/
+
+.tickets{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.tickets h2{}
+.tickets h2 span{
+    border-bottom: solid 1px #00e1ff;
+    padding-bottom: 10px;
+}
+.tickets h3{
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.tickets .col-md-3{
+    font-family:Raleway-SemiBold;
+    font-weight: normal;
+}
+.tickets p{
+    font-family:Raleway-SemiBold;
+    font-weight: normal;
+    font-size: 20px;
+}
+.tickets p:nth-of-type(1){
+    margin-bottom: 0;
+}
+.tickets p:nth-of-type(2){
+    color: #cb2128;
+    font-size: 30px;
+}
+.tickets .col-md-9 p{
+    margin-bottom: 12px;
+}
+
+.tickets .col-md-9 .col-md-4:nth-of-type(1),
+.tickets .col-md-9 .col-md-4:nth-of-type(2),
+.tickets .col-md-9 .col-md-4:nth-of-type(3){
+    font-family: Raleway-Light;
+    font-weight: normal;
+    font-size: 20px;
+}
+.tickets .col-md-9 .col-md-4 p:nth-of-type(2){
+    margin-top: 22px;
+    font-size: 30px;
+    text-transform: none;
+    color: #cb2128;
+}
+
+
+
+
+.tickets .col-sm-12:nth-of-type(2){
+    margin-top: 20px;
+}
+.tickets .col-sm-12 .col-sm-4 p:nth-of-type(2){
+    margin-top: 10px;
+}
+
+
+
+
+/*TICKETS INFO BLOCK*/
+.tickets_info{
+    /*background: url("../images/tuningfest-landing-page_04.jpg") no-repeat scroll center top / 100% 100%;*/
+    /*height: 365px;*/
+    /*width: 100%;*/
+}
+
+
+/*SPECIAL OFFER STYLE*/
+
+.special_offer{
+    position: relative;
+}
+.special_offer h2{
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    /*top: 30px;*/
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+
+
+}
+.special_offer a{
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    width: 50%;
+}
+
+.special_offer h2 span{
+    border-bottom: solid 1px #00e1ff;
+    padding-bottom: 10px;
+}
+
+
+
+/* KONKURS BLOCK STYLE*/
+
+.gift_block{
+    background: url("../images/tuningfest-landing-page_konkurs_02.jpg") no-repeat scroll center top / 100% auto;
+    width: 100%;
+    height: 315px;
+    padding-top: 30px;
+}
+.gift_block .col-sm-2{
+    margin-right: 20px;
+}
+.gift_block h2{
+    color: #ffffff;
+    margin-top: 0;
+    text-shadow: 3px 3px 1px #000;
+    border-bottom: solid 1px #00e1ff;
+    padding-bottom: 5px;
+}
+
+.gift_block div p{
+    margin-top: 15px;
+    font-family:Raleway-Medium;
+    font-weight: normal;
+    font-size: 20px;
+
+}
+.gift_block div div{
+    background: none;
+    border: none;
+}
+.gift_block div .button_go_konc a{
+
+    border: solid 1px #00e1ff;
+    padding: 5px 15px;
+    transition: all .4s ease;
+    color: #ffffff;
+    text-decoration: none;
+}
+.gift_block div .button_go_konc:hover a{
+    background: #00e1ff;
+    color: #000000;
+}
+.gift_block h2:nth-of-type(1){
+    display: block;
+}
+.gift_block h2:nth-of-type(2){
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/*RECEIPT APPLICATION*/
+.receipt_appl{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.receipt_appl h2{
+    color: #3f4244;
+}
+.receipt_appl hr{
+    background: #00e1ff;
+    border: none;
+    width: 50%;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.receipt_appl p{
+    font-size: 24px;
+
+}
+.receipt_appl_first_block{
+    margin-bottom: 40px;
+}
+.receipt_appl_first_block p:nth-of-type(1){
+    margin-bottom: 20px;
+}
+.receipt_appl_first_block p:nth-of-type(1){
+    margin-bottom: 20px;
+}
+
+.receipt_appl_text p:nth-of-type(2){
+    height: 38px;
+    overflow: hidden;
+
+}
+
+
+.receipt_appl_second_block{
+    margin-bottom: 40px;
+}
+.receipt_appl_second_block p:nth-of-type(1){
+    margin-bottom: 20px;
+}
+.receipt_appl span{
+    border-bottom: solid 1px #252726;
+    padding: 0 10px 5px 10px;
+    position: relative;
+}
+.receipt_appl span:before{
+    border-left: 1px solid #252726;
+    content: "";
+    left: -10px;
+    position: relative;
+    top: 30px;
+}
+
+.receipt_appl span:after{
+    border-right: 1px solid #252726;
+    content: "";
+    left: 10px;
+    position: relative;
+    top: 30px;
+}
+
+
+
+/*WATCH NEWS*/
+.watch_news{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #000;
+}
+.watch_news h2{
+    font-family:Raleway-Medium;
+    font-weight: normal;
+    font-size: 30px;
+    color: #ffffff;
+}
+.watch_news img{
+    /*margin-right: 20px;*/
+    /*display: block;*/
+    /*float: left;*/
+    width: 100px;
+    margin-right: 10px;
+    /*margin-bottom: 10px;*/
+    /*position: relative;*/
+    /*left: 50%;*/
+    /*transform: translateX(-50%);*/
+    /*-webkit-transform: translateX(-50%);*/
+
+}
+.watch_news .col-sm-4{
+    /*padding: 0;*/
+}
+
+
+.slider_sponsors_block > a:nth-of-type(1){
+    background: url("../images/left_arrow_03.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    padding: 35px;
+    position: absolute;
+}
+
+.slider_sponsors_block > a:nth-of-type(2){
+    background: url("../images/right_arrow_03.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    padding: 35px;
+    position: absolute;
+}
+
+
+
+
+
+.slider_sponsors_block{
+    position: relative;
+    padding: 20px 0;
+    min-height: 220px;
+}
+
+
+.slider_sponsors_block li {
+    /*width: 20%;*/
+    position: relative;
+    padding-bottom: 0;
+
+}
+
+/*.slider_sponsors_block li img{*/
+    /**/
+/*}*/
+
+
+
+.slider_sponsors_block li img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+
+
+.watch_news .image_title{
+    /*float: left;*/
+    font-size: 30px;
+    text-align: center;
+    font-family:Raleway-Thin;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+/*PREFOOTER STYLES*/
+.pre_footer_map .pre_footer_map_img{
+    background: url("../images/tuningfest-landing-page_07.jpg") no-repeat scroll center top / 100% 100%;
+    height: 400px;
+}
+
+.pre_footer_map img:nth-of-type(1){
+    display: block;
+}
+.pre_footer_map img:nth-of-type(2){
+    display: none;
+}
+
+
+/*FOOTER STYLES*/
+.footer{
+    background: #131316;
+    padding: 40px;
+    /*height: 860px;*/
+}
+.footer p{
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+.footer p a{
+    color: hsl(187, 94%, 43%);
+    text-decoration: none;
+}
+
+.footer span{
+    color: #07bcd4;
+}
+
+
+.footer img{
+    width: 100%;
+}
+
+.youtube_video{
+    height: inherit;
+
+}
+.youtube_video iframe{
+    height: inherit;
+}
+
+@media only screen and (max-width: 1199px){
+    .watch_news img{
+        left: 50%;
+        position: relative;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        width: 100px;
+    }
+    .watch_news span{
+        display: block;
+    }
+}
+
+.video_wrapper .info_wrapper p
+
+@media only screen and (max-width: 767px) {
+
+
+}
+
+@media only screen and (min-width: 768px) and  (max-width: 991px){
+    .video_wrapper > img {
+        height: 370px;
+    }
+    .video_wrapper .info_wrapper p {
+        margin-bottom: 25px;
+        margin-top: 20px;
+    }
+
+
+    .video_wrapper .info_wrapper .look_video .play_icon {
+        background: hsla(0, 0%, 0%, 0) url("../images/for_video_icon.png") no-repeat scroll center top;
+        cursor: pointer;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        height: 90px;
+        margin: 0 auto;
+        width: 90px;
+    }
+
+    .video_wrapper .info_wrapper p{
+        font-size: 24px;
+    }
+
+}
+
+@media only screen and (max-width: 1199px){
+
+    .logo{
+        padding-left: 15px;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .video_wrapper > img{
+       height: 415px;
+    }
+
+}
+
+
+@media only screen and (max-width: 991px){
+    /*.video_wrapper{*/
+        /*width: 100%;*/
+    /*}*/
+    .video_wrapper .info_wrapper{
+        padding: 10px;
+
+    }
+
+    .video_wrapper .info_wrapper hr{
+        margin: 10px auto 15px;
+    }
+    .video_wrapper .info_wrapper p {
+        margin-bottom: 25px;
+        margin-top: 20px;
+    }
+
+
+    .gift_block h2{
+        font-size: 22px;
+    }
+
+    .gift_block div p{
+        font-family: Raleway-Medium;
+        font-size: 16px;
+        font-weight: normal;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+
+
+}
+@media only screen and (max-width: 767px){
+    .watch_news .col-xs-12{
+        margin-bottom: 20px;
+    }
+
+
+    .gift_block h2:nth-of-type(1){
+        display: none;
+
+    }
+    .gift_block h2:nth-of-type(2){
+        display: block;
+        font-size: 18px!important;
+    }
+
+
+
+    h2{
+        font-size: 22px!important;
+    }
+    .watch_news h2{
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .watch_news .col-xs-12 > div{
+        display: block;
+        width: 235px;
+        margin: 0 auto;
+    }
+        /*position: relative;*/
+        /*left: 50%;*/
+        /*transform: translatex(-50%);*/
+    /*}*/
+    .watch_news .image_title{
+        float: left;
+        font-size: 18px;
+        margin-left: 15px;
+        margin-top: 20px;
+        position: relative;
+        /*top: 50%;*/
+        /*transform: translateY(-50%);*/
+
+    }
+
+
+    .slider > div > a{
+        padding: 25px;
+    }
+    .slider > div > a:nth-of-type(1){
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+    .slider > div > a:nth-of-type(2){
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+    .watch_news a{
+        float: left;
+    }
+
+    .watch_news img{
+        width: 70px;
+        /*display: block;*/
+        /*left: 50%;*/
+        position: relative;
+        /*transform: translateX(-50%);*/
+        /*width: 100px;*/
+    }
+
+    .video_wrapper > img {
+        height: 210px;
+    }
+
+
+    .video_wrapper .info_wrapper p{
+        display: none;
+    }
+
+    .video_wrapper .info_wrapper .look_video .play_icon {
+        background: hsla(0, 0%, 0%, 0) url("../images/for_video_icon.png") no-repeat scroll center top / 100% 100%;
+        /*cursor: pointer;*/
+        height: 55px;
+        /*margin: 0 auto;*/
+        width: 55px;
+    }
+
+    .gift_block {
+        background: hsla(0, 0%, 0%, 0) url("../images/tuningfest-landing-page_konkurs_02.jpg") no-repeat scroll center top / 100% 100%;
+        height: 210px;
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    .pre_footer_map img:nth-of-type(1){
+        display: none;
+    }
+    .pre_footer_map img:nth-of-type(2){
+        display: block;
+    }
+
+    .slider > div > a:nth-of-type(1) {
+        left: 20px;
+        top: 30%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+    }
+    .slider > div > a:nth-of-type(2) {
+        right: 20px;
+        top: 30%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+     }
+
+
+    .uk-grid-width-medium-1-4 > * {
+        margin: 0!important;
+        width: 100%!important;
+    }
+
+
+    #bs-example-navbar-collapse-1{
+        padding: 0!important;
+    }
+    #bs-example-navbar-collapse-1 li{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    #bs-example-navbar-collapse-1 ul{
+        margin: 0!important;
+    }
+    #bs-example-navbar-collapse-1 li a{
+        padding: 10px 0;
+        display: block;
+        width: 100%;
+        border-bottom: none;
+    }
+
+    .navbar-default{
+        z-index: 10;
+    }
+    /*#bs-example-navbar-collapse-1 .navbar-nav > li:hover{*/
+        /*border-bottom: none;*/
+    /*}*/
+    #bs-example-navbar-collapse-1 .navbar-nav > li > a:hover{
+        border-bottom: none;
+    }
+    #bs-example-navbar-collapse-1 .navbar-nav > li > a{
+        padding: 15px 10px;
+        border-bottom: none;
+    }
+    #custom-bootstrap-menu{
+        margin-bottom: 0 !important;
+    }
+    .gift_block div p{
+        display: none;
+    }
+    .gift_block div div{
+        float: left !important;
+        margin-top: 15px;
+    }
+
+    /*#bs-example-navbar-collapse-1 li a:hover{}*/
+}
+
+
+/*@media only screen and (min-width: 992px) {*/
+    /*.watch_news .image_title{*/
+        /*font-size: 30px;*/
+    /*}*/
+/*}*/
+
+
+
+
+
+
+#custom-bootstrap-menu .navbar{
+    margin: 0 !important;
+    min-height: 0!important;
+}
+.navbar-default{
+    background:#fff!important;
+    border: none!important;
+}
